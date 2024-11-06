@@ -1,13 +1,13 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import header from './Componentes/molecules/Header'
 import './App.css'
+import Button from './Componentes/atoms/Button'
 
 
 function App() {
-  const [count, setCount] = useState(0)
+  
 
   return (
+<<<<<<< HEAD
     <>
       <h1>L&N Films</h1>
   <nav className='list'>   
@@ -30,6 +30,13 @@ function App() {
   </ul>
 </footer>
     </>
+=======
+    <div className='body'>
+    <Header/>
+    <Button/>
+
+    </div>
+>>>>>>> 78b15c328d93098c510f78925f8f9d9f400cd31f
   )
 }
 
