@@ -7,7 +7,6 @@ function App() {
   
 
   return (
-<<<<<<< HEAD
     <>
       <h1>L&N Films</h1>
   <nav className='list'>   
@@ -30,13 +29,6 @@ function App() {
   </ul>
 </footer>
     </>
-=======
-    <div className='body'>
-    <Header/>
-    <Button/>
-
-    </div>
->>>>>>> 78b15c328d93098c510f78925f8f9d9f400cd31f
   )
 }
 
