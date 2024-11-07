@@ -1,0 +1,35 @@
+{
+"movies": [
+    {
+    "id": "Spiderman",
+    "title": "Spiderman",
+    "description": "Ver más",
+    "price": "3.99"
+
+    },
+    {
+    "id": "Venom",
+    "title": "Venom",
+    "description":"Ver más",
+    "price": "3.99"
+
+    },
+    
+    {
+    "id": "Capitan America",
+    "title": "Capitan America",
+    "description":"Ver más",
+    "price": "3.99"
+    },
+
+    {
+    "id": "Hulk",
+    "title": "Hulk",
+    "description":"Ver más",
+    "price": 3.99
+
+    }
+
+ ]
+
+}

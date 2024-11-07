@@ -1,3 +1,48 @@
 header {
     color: white;
+    margin-top: 80px;
+    
 }
+
+header h1 {
+display: flex;
+justify-content: center;
+}
+header img {
+    width: 150px;
+    height: auto;
+    text-align: center;
+}
+
+.list {
+   
+    justify-content: space-between;
+    font-weight: bold;
+
+}
+ ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    list-style: none; 
+    
+    
+  }
+  
+   li {
+    display: inline-block; 
+    margin: 0 10px; 
+    padding: 60px;
+  }
+  
+   a {
+    text-decoration: none; 
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+  }
+  
+   a:hover {
+    background-color: #b3b3b3;
+  }

@@ -1,11 +1,8 @@
-body,html {
+body {
     background-color: black;
-}
-
-footer {
-    padding: 250px;
-    display: flex;
-    justify-content: space-between;
-
+    color: white;
+    text-align: center;
+    margin: 0;
+    overflow: hidden;
     
 }
