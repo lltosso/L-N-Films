@@ -1,11 +1,12 @@
 import Header from "../Componentes/molecules/Header"
+import Footer from "../Componentes/Footer/Footer"
 
 
 const Layout = () => {
   return (
     <>
     <Header/>
-    <main>Este es mi contenido dinamico</main>
+    <main>Tus peliculas favoritas a un solo click</main>
     <Footer/>
     </>
   )
