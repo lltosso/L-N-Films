@@ -1,14 +1,15 @@
-import axios from "axios";
 import { useEffect } from "react";
 import { useState } from "react"
 import './Products.css'
+
+import { Link } from "react-router-dom";
 
 const Products = () => {
   const apiProductsUrl = "http://localhost:3000/products";
   const [products, setProducts] = useState([]);
 
   const getAllProducts = async () => {
-    const response = await axios.get(apiProductsUrl);
+    const response = await getAllProducts(apiProductsUrl);
     console.log(response.data);
     setProducts(response.data)
   }
@@ -17,17 +18,21 @@ const Products = () => {
   }, [])
 
   return (
-    <div className="container-card">
-      {
-        products.map((product) =>  (
-          <div className="cards">
-            <p>{product.title}</p>
-            <img src={product.imageurl} alt="" />
-          </div>
-        ))
-      }
-      
-    </div>
+    <>
+      <Link to={"/createProduct"}><button>Añadir producto</button></Link>
+      <div className="container-card">
+        {
+          products.map((product) => (
+            <div className="cards" key={product.id}>
+              <p>{product.id}</p>
+              <img src={product.imageurl} alt="" />
+            </div>
+
+          ))
+        }
+
+      </div >
+    </>
   )
 }
 

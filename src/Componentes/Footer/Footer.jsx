@@ -6,7 +6,7 @@ import img3 from '../../assets/imagenes/twitter.png'
 function Footer() {
     return (
         <footer>
-            <div className='siguenos'>
+            <div className='footer'>
                 <div >
                     <ul>
                         <li><a href="">Politica de privacidad</a></li>

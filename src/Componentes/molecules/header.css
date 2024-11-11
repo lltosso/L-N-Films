@@ -1,18 +1,18 @@
 header {
     color: white;
     margin-top: 80px;
-    @media (max-width: 600px){
-      .container-card {
-          display: flex;
-          flex-direction: column;
   
-      }
-    
 }
-
+@media (max-width: 600px){
+  .container-card {
+      display: flex;
+      flex-direction: column;
+  }
+}
 header h1 {
-display: flex;
-justify-content: center;
+  display: flex;
+  justify-content: center;
+  
 }
 header img {
     width: 150px;

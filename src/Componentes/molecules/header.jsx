@@ -5,7 +5,7 @@ function Header() {
     <header>
       <img src={img} alt="" />
       <nav className='list'>
-        <ul>
+      <ul>
           <li><a href="#">Peliculas</a></li>
           <li><a href="#">Por actor</a></li>
           <li><a href="#">Por titulo</a></li>

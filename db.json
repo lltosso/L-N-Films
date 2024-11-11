@@ -30,7 +30,7 @@
     "id": "Hulk",
     "title": "Hulk",
     "description":"Ver más",
-    "price": 3.99,
+    "price": "3.99",
     "imageurl":"./src/assets/imagenes/hulk.jpg"
 
     }
