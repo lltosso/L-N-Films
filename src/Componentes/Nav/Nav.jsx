@@ -5,7 +5,7 @@ function Nav() {
     <nav>
     <ul className='ul'>
       <li>
-        Por genero
+        Peliculas
       </li>
       <li>
         Por actor

@@ -1,0 +1,33 @@
+.cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+
+}
+
+.container-card{
+display: flex;
+flex-direction: row;
+gap: 40px;
+justify-content: center;
+align-items: center;
+
+}
+
+@media (max-width: 600px){
+    .container-card {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+}
+
+.cards img{
+    width: 200px;
+    height: auto;
+    
+}

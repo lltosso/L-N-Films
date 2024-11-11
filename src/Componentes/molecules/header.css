@@ -1,6 +1,12 @@
 header {
     color: white;
     margin-top: 80px;
+    @media (max-width: 600px){
+      .container-card {
+          display: flex;
+          flex-direction: column;
+  
+      }
     
 }
 

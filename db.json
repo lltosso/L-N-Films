@@ -1,18 +1,20 @@
-// Lista de productos provisional//
+
 {
-"movies": [
+"products": [
     {
     "id": "Spiderman",
     "title": "Spiderman",
     "description": "Ver más",
-    "price": "3.99"
+    "price": "3.99",
+    "imageurl": "./src/assets/imagenes/spider.png"
 
     },
     {
     "id": "Venom",
     "title": "Venom",
     "description":"Ver más",
-    "price": "3.99"
+    "price": "3.99",
+    "imageurl": "./src/assets/imagenes/venom.png"
 
     },
     
@@ -20,14 +22,16 @@
     "id": "Capitan America",
     "title": "Capitan America",
     "description":"Ver más",
-    "price": "3.99"
+    "price": "3.99",
+    "imageurl": "./src/assets/imagenes/capitan.png"
     },
 
     {
     "id": "Hulk",
     "title": "Hulk",
     "description":"Ver más",
-    "price": 3.99
+    "price": 3.99,
+    "imageurl":"./src/assets/imagenes/hulk.jpg"
 
     }
 

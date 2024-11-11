@@ -6,10 +6,10 @@ function Header() {
       <img src={img} alt="" />
       <nav className='list'>
         <ul>
-          <li><a href="#">Por genero</a></li>
+          <li><a href="#">Peliculas</a></li>
           <li><a href="#">Por actor</a></li>
           <li><a href="#">Por titulo</a></li>
-          <li><a href="https://www.fotogramas.es/noticias-cine/g31936725/marvel-ranking-peliculas-vengadores/">Mas populares</a></li>
+          <li><a href="#">Mas populares</a></li>
         </ul>
       </nav>
     </header>
